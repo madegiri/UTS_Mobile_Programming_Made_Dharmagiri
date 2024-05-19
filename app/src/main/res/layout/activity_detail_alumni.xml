@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahActivity">
+
+    <TextView
+        android:id="@+id/editTextNim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="2207411009"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextNamaAlumni"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Made Dharmagiri"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextTempatLahir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Jakarta"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNamaAlumni"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextTanggalLahir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="7 September 2024"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTempatLahir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Jakarta"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTanggalLahir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextAgama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Hindu"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAlamat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextTlp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="123456"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAgama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextTahunMasuk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="2022"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTlp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextTahunLulus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="2026"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTahunMasuk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPekerjaan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="WebDev"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTahunLulus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextJabatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Jabatan"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPekerjaan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <Button
+        android:id="@+id/buttonUbah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubah"
+        app:layout_constraintTop_toBottomOf="@+id/editTextJabatan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonHapus"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/buttonHapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        app:layout_constraintTop_toBottomOf="@+id/editTextJabatan"
+        app:layout_constraintStart_toEndOf="@+id/buttonUbah"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
